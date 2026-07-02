@@ -695,7 +695,6 @@ const VN = {
 
 document.addEventListener('DOMContentLoaded', () => {
   VN.init();
-  VN.createParticles();
 
   const game = document.getElementById('game');
   if (game) {
@@ -728,6 +727,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (saved) {
       try {
         VN.state = JSON.parse(saved);
+        VN.updateBackButton();
+        VN.updateMenuToggles();
         VN.playSceneMusic(VN.scenes[VN.state.currentScene]);
         VN.render();
         return;
