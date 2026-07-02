@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="sepiaSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6a5a40"/>
+      <stop offset="30%" stop-color="#4a3828"/>
+      <stop offset="60%" stop-color="#2a1f14"/>
+      <stop offset="100%" stop-color="#0d0806"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="15%" r="35%">
+      <stop offset="0%" stop-color="#f0d9a0" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#f0d9a0" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#f0d9a0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="60%">
+      <stop offset="50%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.6"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2a1a"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="buildingLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a1e14"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="buildingRight" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1e14"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="tentGlow" cx="50%" cy="40%" r="30%">
+      <stop offset="0%" stop-color="#8a6a40" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#8a6a40" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1280" height="720" fill="url(#sepiaSky)"/>
+  <rect width="1280" height="720" fill="url(#sunGlow)"/>
+
+  <!-- Horizon buildings silhouette -->
+  <rect x="0" y="280" width="1280" height="440" fill="url(#ground)"/>
+
+  <!-- Distant city silhouette -->
+  <rect x="200" y="260" width="60" height="50" fill="#1a1008" opacity="0.4"/>
+  <rect x="280" y="250" width="40" height="60" fill="#1a1008" opacity="0.4"/>
+  <rect x="330" y="265" width="50" height="45" fill="#1a1008" opacity="0.4"/>
+  <rect x="850" y="255" width="45" height="55" fill="#1a1008" opacity="0.4"/>
+  <rect x="910" y="268" width="55" height="42" fill="#1a1008" opacity="0.4"/>
+  <rect x="980" y="248" width="35" height="62" fill="#1a1008" opacity="0.4"/>
+
+  <!-- Circus tent -->
+  <polygon points="550,180 650,130 750,180" fill="#2a1a0e" opacity="0.7"/>
+  <polygon points="550,180 650,130 750,180" fill="none" stroke="#3a2818" stroke-width="1.5"/>
+  <line x1="650" y1="130" x2="650" y2="180" stroke="#3a2818" stroke-width="1"/>
+  <path d="M550,180 L570,230 L630,230 L650,180" fill="#2a1a0e" opacity="0.7"/>
+  <path d="M750,180 L730,230 L670,230 L650,180" fill="#2a1a0e" opacity="0.7"/>
+  <ellipse cx="560" cy="230" rx="30" ry="8" fill="#1a1008" opacity="0.5"/>
+  <ellipse cx="740" cy="230" rx="30" ry="8" fill="#1a1008" opacity="0.5"/>
+  <rect x="565" y="228" width="14" height="30" fill="#1a0e06"/>
+  <rect x="720" y="228" width="14" height="30" fill="#1a0e06"/>
+  <!-- Tent stripes -->
+  <line x1="600" y1="140" x2="580" y2="230" stroke="#3a2818" stroke-width="0.8" opacity="0.4"/>
+  <line x1="640" y1="132" x2="630" y2="230" stroke="#3a2818" stroke-width="0.8" opacity="0.4"/>
+  <line x1="660" y1="132" x2="670" y2="230" stroke="#3a2818" stroke-width="0.8" opacity="0.4"/>
+  <line x1="700" y1="140" x2="720" y2="230" stroke="#3a2818" stroke-width="0.8" opacity="0.4"/>
+  <rect x="650" y="180" width="50" height="50" fill="url(#tentGlow)"/>
+
+  <!-- Left building -->
+  <polygon points="0,140 160,140 160,300 0,300" fill="url(#buildingLeft)"/>
+  <rect x="0" y="140" width="160" height="3" fill="#4a3420" opacity="0.5"/>
+  <rect x="0" y="150" width="160" height="150" fill="#1a1008"/>
+  <!-- Windows left building -->
+  <rect x="20" y="160" width="28" height="40" rx="2" fill="#3a2818" opacity="0.5"/>
+  <rect x="62" y="160" width="28" height="40" rx="2" fill="#f0d080" opacity="0.08"/>
+  <rect x="104" y="160" width="28" height="40" rx="2" fill="#3a2818" opacity="0.5"/>
+  <rect x="20" y="215" width="28" height="40" rx="2" fill="#f0d080" opacity="0.06"/>
+  <rect x="62" y="215" width="28" height="40" rx="2" fill="#3a2818" opacity="0.5"/>
+  <rect x="104" y="215" width="28" height="40" rx="2" fill="#3a2818" opacity="0.5"/>
+  <rect x="56" y="270" width="40" height="30" rx="2" fill="#1a0e06"/>
+  <!-- Roof -->
+  <polygon points="-20,140 80,100 180,140" fill="#1a0e06"/>
+
+  <!-- Right building -->
+  <polygon points="1000,160 1200,160 1200,300 1000,300" fill="url(#buildingRight)"/>
+  <rect x="1000" y="160" width="200" height="3" fill="#4a3420" opacity="0.5"/>
+  <rect x="1000" y="170" width="200" height="130" fill="#1a1008"/>
+  <!-- Windows right building -->
+  <rect x="1020" y="178" width="35" height="45" rx="2" fill="#3a2818" opacity="0.5"/>
+  <rect x="1070" y="178" width="35" height="45" rx="2" fill="#f0d080" opacity="0.07"/>
+  <rect x="1120" y="178" width="35" height="45" rx="2" fill="#3a2818" opacity="0.5"/>
+  <rect x="1020" y="238" width="35" height="45" rx="2" fill="#3a2818" opacity="0.5"/>
+  <rect x="1070" y="238" width="35" height="45" rx="2" fill="#3a2818" opacity="0.5"/>
+  <rect x="1120" y="238" width="35" height="45" rx="2" fill="#f0d080" opacity="0.05"/>
+  <rect x="1080" y="270" width="45" height="30" rx="2" fill="#1a0e06"/>
+  <!-- Roof -->
+  <polygon points="990,160 1100,110 1210,160" fill="#1a0e06"/>
+
+  <!-- Very close building left edge -->
+  <rect x="-30" y="200" width="80" height="100" fill="#0d0806"/>
+  <rect x="-30" y="200" width="80" height="2" fill="#3a2818" opacity="0.4"/>
+  <rect x="-10" y="215" width="20" height="30" rx="2" fill="#f0d080" opacity="0.05"/>
+
+  <!-- Cobblestone street -->
+  <path d="M0,300 Q320,290 640,295 Q960,300 1280,290 L1280,720 L0,720 Z" fill="#2a1a10"/>
+  <ellipse cx="320" cy="350" rx="35" ry="14" fill="#1a0e06" opacity="0.3"/>
+  <ellipse cx="640" cy="340" rx="40" ry="12" fill="#1a0e06" opacity="0.25"/>
+  <ellipse cx="960" cy="355" rx="30" ry="13" fill="#1a0e06" opacity="0.3"/>
+  <ellipse cx="200" cy="400" rx="28" ry="10" fill="#1a0e06" opacity="0.2"/>
+  <ellipse cx="450" cy="420" rx="32" ry="11" fill="#1a0e06" opacity="0.2"/>
+  <ellipse cx="780" cy="410" rx="30" ry="10" fill="#1a0e06" opacity="0.25"/>
+  <ellipse cx="1050" cy="430" rx="35" ry="12" fill="#1a0e06" opacity="0.2"/>
+  <ellipse cx="300" cy="500" rx="30" ry="10" fill="#1a0e06" opacity="0.15"/>
+  <ellipse cx="600" cy="510" rx="35" ry="11" fill="#1a0e06" opacity="0.15"/>
+  <ellipse cx="900" cy="520" rx="28" ry="10" fill="#1a0e06" opacity="0.15"/>
+
+  <!-- Cobblestone cracks -->
+  <line x1="280" y1="345" x2="360" y2="355" stroke="#1a0e06" stroke-width="0.5" opacity="0.3"/>
+  <line x1="600" y1="335" x2="680" y2="345" stroke="#1a0e06" stroke-width="0.5" opacity="0.3"/>
+  <line x1="920" y1="350" x2="1000" y2="360" stroke="#1a0e06" stroke-width="0.5" opacity="0.3"/>
+  <line x1="170" y1="395" x2="230" y2="405" stroke="#1a0e06" stroke-width="0.5" opacity="0.2"/>
+  <line x1="420" y1="415" x2="480" y2="425" stroke="#1a0e06" stroke-width="0.5" opacity="0.2"/>
+  <line x1="750" y1="405" x2="810" y2="415" stroke="#1a0e06" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Suitcase -->
+  <rect x="580" y="410" width="90" height="60" rx="4" fill="#4a3018"/>
+  <rect x="580" y="410" width="90" height="60" rx="4" fill="none" stroke="#3a2010" stroke-width="1.5"/>
+  <rect x="580" y="410" width="90" height="8" rx="2" fill="#3a2010"/>
+  <rect x="580" y="463" width="90" height="7" rx="2" fill="#3a2010"/>
+  <rect x="619" y="420" width="12" height="18" rx="2" fill="#8a6a40"/>
+  <line x1="625" y1="425" x2="625" y2="435" stroke="#4a3018" stroke-width="0.8"/>
+  <rect x="619" y="420" width="12" height="6" rx="2" fill="#6a4a28"/>
+  <rect x="580" y="410" width="90" height="4" fill="#3a2010"/>
+  <!-- Shadow under suitcase -->
+  <ellipse cx="625" cy="475" rx="55" ry="6" fill="#0a0502" opacity="0.5"/>
+
+  <!-- Broken wheel near suitcase -->
+  <circle cx="590" cy="475" r="8" fill="#1a1008"/>
+  <circle cx="590" cy="475" r="5" fill="#2a1a0e"/>
+  <circle cx="590" cy="475" r="2" fill="#1a0e06"/>
+
+  <!-- Tram tracks -->
+  <line x1="0" y1="330" x2="1280" y2="320" stroke="#1a1008" stroke-width="2" opacity="0.3"/>
+  <line x1="0" y1="338" x2="1280" y2="328" stroke="#1a1008" stroke-width="2" opacity="0.3"/>
+  <line x1="100" y1="330" x2="100" y2="338" stroke="#1a1008" stroke-width="3" opacity="0.2"/>
+  <line x1="350" y1="326" x2="350" y2="334" stroke="#1a1008" stroke-width="3" opacity="0.2"/>
+  <line x1="600" y1="322" x2="600" y2="330" stroke="#1a1008" stroke-width="3" opacity="0.2"/>
+  <line x1="850" y1="320" x2="850" y2="328" stroke="#1a1008" stroke-width="3" opacity="0.2"/>
+  <line x1="1100" y1="318" x2="1100" y2="326" stroke="#1a1008" stroke-width="3" opacity="0.2"/>
+
+  <!-- Foreground fence on right -->
+  <rect x="1100" y="220" width="8" height="160" fill="#1a0e06"/>
+  <rect x="1160" y="230" width="8" height="170" fill="#1a0e06"/>
+  <rect x="1080" y="240" width="90" height="5" fill="#1a0e06"/>
+  <rect x="1083" y="300" width="84" height="4" fill="#1a0e06"/>
+  <rect x="1088" y="220" width="4" height="180" fill="#0d0806"/>
+
+  <!-- Dust motes -->
+  <circle cx="300" cy="200" r="1.5" fill="#f0d9a0" opacity="0.08"/>
+  <circle cx="500" cy="180" r="1" fill="#f0d9a0" opacity="0.06"/>
+  <circle cx="700" cy="220" r="1.2" fill="#f0d9a0" opacity="0.07"/>
+  <circle cx="400" cy="260" r="0.8" fill="#f0d9a0" opacity="0.05"/>
+  <circle cx="850" cy="190" r="1.3" fill="#f0d9a0" opacity="0.06"/>
+
+  <!-- Vignette -->
+  <rect width="1280" height="720" fill="url(#vignette)"/>
+</svg>

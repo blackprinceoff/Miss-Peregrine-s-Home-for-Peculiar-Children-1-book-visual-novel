@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 400">
+  <rect width="200" height="400" fill="transparent"/>
+  <!-- Згорблена постать -->
+  <ellipse cx="100" cy="100" rx="45" ry="50" fill="#0a0a0a"/>
+  <!-- Очі-крапки -->
+  <circle cx="85" cy="85" r="5" fill="#660000">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="115" cy="85" r="5" fill="#660000">
+    <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Зіниці -->
+  <circle cx="85" cy="85" r="2" fill="#000"/>
+  <circle cx="115" cy="85" r="2" fill="#000"/>
+  <!-- Рот-щілина -->
+  <path d="M80,105 Q90,118 100,108 Q110,118 120,105" fill="none" stroke="#1a0000" stroke-width="2"/>
+  <!-- Мацаки з рота -->
+  <path d="M95,110 Q90,130 80,135" fill="none" stroke="#1a0000" stroke-width="2" opacity="0.5"/>
+  <path d="M105,110 Q110,130 120,135" fill="none" stroke="#1a0000" stroke-width="2" opacity="0.5"/>
+  <!-- Тіло -->
+  <rect x="60" y="150" width="80" height="130" rx="10" fill="#0a0a0a"/>
+  <!-- Ребра/кістки (натяк) -->
+  <line x1="72" y1="170" x2="128" y2="170" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="74" y1="185" x2="126" y2="185" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="76" y1="200" x2="124" y2="200" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- Руки-пазурі -->
+  <path d="M60,170 L30,220 L25,240" stroke="#0a0a0a" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M140,170 L170,220 L175,240" stroke="#0a0a0a" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Пальці-кігті -->
+  <line x1="25" y1="240" x2="18" y2="250" stroke="#0a0a0a" stroke-width="4" stroke-linecap="round"/>
+  <line x1="25" y1="240" x2="28" y2="252" stroke="#0a0a0a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="175" y1="240" x2="182" y2="250" stroke="#0a0a0a" stroke-width="4" stroke-linecap="round"/>
+  <line x1="175" y1="240" x2="172" y2="252" stroke="#0a0a0a" stroke-width="3" stroke-linecap="round"/>
+  <!-- Ноги -->
+  <rect x="65" y="280" width="28" height="80" rx="6" fill="#0a0a0a"/>
+  <rect x="107" y="280" width="28" height="80" rx="6" fill="#0a0a0a"/>
+</svg>

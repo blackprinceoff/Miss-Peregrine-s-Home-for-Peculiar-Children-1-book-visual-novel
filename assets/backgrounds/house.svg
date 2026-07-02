@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="sunsetSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a3040"/>
+      <stop offset="20%" stop-color="#4a3850"/>
+      <stop offset="45%" stop-color="#8a5040"/>
+      <stop offset="65%" stop-color="#d08040"/>
+      <stop offset="80%" stop-color="#e8a860"/>
+      <stop offset="100%" stop-color="#1a0a06"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a3a28"/>
+      <stop offset="100%" stop-color="#1a2418"/>
+    </linearGradient>
+    <linearGradient id="houseWall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a3828"/>
+      <stop offset="100%" stop-color="#2a1a10"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1e14"/>
+      <stop offset="100%" stop-color="#1a0e06"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="75%" cy="70%" r="30%">
+      <stop offset="0%" stop-color="#f0c060" stop-opacity="0.25"/>
+      <stop offset="30%" stop-color="#e89040" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#e89040" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="windowLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f0d080" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#f0d080" stop-opacity="0.05"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1280" height="720" fill="url(#sunsetSky)"/>
+  <rect width="1280" height="720" fill="url(#sun)"/>
+
+  <!-- Distant trees -->
+  <ellipse cx="100" cy="340" rx="80" ry="60" fill="#1a2a1a" opacity="0.6"/>
+  <ellipse cx="250" cy="330" rx="60" ry="50" fill="#1a2a1a" opacity="0.5"/>
+  <ellipse cx="400" cy="345" rx="70" ry="55" fill="#1a2a1a" opacity="0.5"/>
+  <ellipse cx="1000" cy="335" rx="90" ry="65" fill="#1a2a1a" opacity="0.5"/>
+  <ellipse cx="1150" cy="350" rx="70" ry="55" fill="#1a2a1a" opacity="0.5"/>
+  <ellipse cx="1250" cy="340" rx="60" ry="50" fill="#1a2a1a" opacity="0.6"/>
+
+  <!-- Ground -->
+  <rect x="0" y="340" width="1280" height="380" fill="url(#grass)"/>
+
+  <!-- Fence -->
+  <rect x="0" y="340" width="8" height="100" fill="#1a1410"/>
+  <rect x="80" y="345" width="6" height="95" fill="#1a1410"/>
+  <rect x="160" y="340" width="6" height="100" fill="#1a1410"/>
+  <rect x="0" y="350" width="170" height="5" fill="#1a1410"/>
+  <rect x="0" y="380" width="170" height="4" fill="#1a1410"/>
+
+  <!-- Driveway -->
+  <polygon points="550,580 580,440 640,440 680,580" fill="#1a1810" opacity="0.7"/>
+
+  <!-- House body -->
+  <rect x="440" y="220" width="400" height="300" fill="url(#houseWall)"/>
+  <rect x="440" y="220" width="400" height="300" fill="none" stroke="#2a1a0e" stroke-width="2"/>
+
+  <!-- House front extension (porch area) -->
+  <rect x="430" y="280" width="420" height="240" fill="#3a2818"/>
+  <rect x="430" y="280" width="420" height="240" fill="none" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <!-- Roof -->
+  <polygon points="420,220 640,120 860,220" fill="url(#roof)"/>
+  <polygon points="420,220 640,120 860,220" fill="none" stroke="#1a0e06" stroke-width="2"/>
+  <!-- Roof shingles suggestion -->
+  <line x1="480" y1="200" x2="800" y2="200" stroke="#1a0e06" stroke-width="1" opacity="0.3"/>
+  <line x1="510" y1="185" x2="770" y2="185" stroke="#1a0e06" stroke-width="1" opacity="0.3"/>
+  <line x1="540" y1="170" x2="740" y2="170" stroke="#1a0e06" stroke-width="1" opacity="0.3"/>
+  <line x1="570" y1="155" x2="710" y2="155" stroke="#1a0e06" stroke-width="1" opacity="0.3"/>
+
+  <!-- Chimney -->
+  <rect x="680" y="130" width="30" height="90" fill="#1a0e06"/>
+  <rect x="676" y="128" width="38" height="8" rx="2" fill="#2a1a0e"/>
+
+  <!-- Windows -->
+  <rect x="470" y="250" width="50" height="60" rx="2" fill="#0a1020"/>
+  <rect x="470" y="250" width="50" height="60" rx="2" fill="url(#windowLight)"/>
+  <rect x="470" y="250" width="50" height="60" rx="2" fill="none" stroke="#2a1a0e" stroke-width="2"/>
+  <line x1="495" y1="250" x2="495" y2="310" stroke="#2a1a0e" stroke-width="1.5"/>
+  <line x1="470" y1="280" x2="520" y2="280" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <rect x="760" y="250" width="50" height="60" rx="2" fill="#0a1020"/>
+  <rect x="760" y="250" width="50" height="60" rx="2" fill="url(#windowLight)"/>
+  <rect x="760" y="250" width="50" height="60" rx="2" fill="none" stroke="#2a1a0e" stroke-width="2"/>
+  <line x1="785" y1="250" x2="785" y2="310" stroke="#2a1a0e" stroke-width="1.5"/>
+  <line x1="760" y1="280" x2="810" y2="280" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <!-- Front door -->
+  <rect x="590" y="340" width="80" height="180" rx="3" fill="#2a1a0e"/>
+  <rect x="590" y="340" width="80" height="180" rx="3" fill="none" stroke="#1a0e06" stroke-width="2"/>
+  <rect x="590" y="340" width="80" height="180" rx="3" fill="#3a2818" opacity="0.3"/>
+  <!-- Door panels -->
+  <rect x="598" y="352" width="64" height="50" rx="2" fill="none" stroke="#1a0e06" stroke-width="1.5" opacity="0.5"/>
+  <rect x="598" y="420" width="64" height="55" rx="2" fill="none" stroke="#1a0e06" stroke-width="1.5" opacity="0.5"/>
+  <!-- Doorknob -->
+  <circle cx="658" cy="440" r="3" fill="#8a7a50"/>
+  <!-- Door window -->
+  <rect x="610" y="355" width="40" height="40" rx="2" fill="#0a1020" opacity="0.3"/>
+
+  <!-- Porch -->
+  <rect x="580" y="520" width="100" height="10" fill="#2a1a0e"/>
+  <rect x="580" y="520" width="100" height="10" fill="none" stroke="#1a0e06" stroke-width="1"/>
+
+  <!-- Porch columns -->
+  <rect x="580" y="340" width="10" height="180" fill="#3a2818"/>
+  <rect x="670" y="340" width="10" height="180" fill="#3a2818"/>
+
+  <!-- Porch roof -->
+  <rect x="570" y="330" width="130" height="12" rx="2" fill="#1a0e06"/>
+
+  <!-- Porch swing -->
+  <line x1="590" y1="350" x2="590" y2="400" stroke="#2a1a0e" stroke-width="1.5"/>
+  <line x1="670" y1="350" x2="670" y2="400" stroke="#2a1a0e" stroke-width="1.5"/>
+  <rect x="588" y="400" width="84" height="12" rx="2" fill="#2a1a10"/>
+  <path d="M595,400 L602,380 L610,400" fill="none" stroke="#2a1a0e" stroke-width="1.5"/>
+  <path d="M660,400 L653,380 L645,400" fill="none" stroke="#2a1a0e" stroke-width="1.5"/>
+
+  <!-- Palm tree 1 (left) -->
+  <rect x="325" y="250" width="12" height="180" fill="#2a1a0e"/>
+  <rect x="328" y="250" width="6" height="180" fill="#3a2a18"/>
+  <!-- Fronds -->
+  <path d="M331,250 Q290,230 260,260" fill="none" stroke="#2a3a20" stroke-width="4"/>
+  <path d="M331,250 Q310,210 280,220" fill="none" stroke="#2a3a20" stroke-width="3"/>
+  <path d="M331,250 Q350,210 380,230" fill="none" stroke="#2a3a20" stroke-width="3"/>
+  <path d="M331,250 Q370,240 400,270" fill="none" stroke="#2a3a20" stroke-width="4"/>
+  <path d="M331,250 Q300,260 270,290" fill="none" stroke="#2a3a20" stroke-width="3"/>
+  <path d="M331,250 Q360,225 340,210" fill="none" stroke="#3a4a28" stroke-width="2.5"/>
+  <path d="M331,250 Q310,230 290,215" fill="none" stroke="#3a4a28" stroke-width="2.5"/>
+  <!-- Frond leaves -->
+  <path d="M260,260 L250,252 L258,265" fill="#2a3a20" opacity="0.3"/>
+  <path d="M280,220 L270,210 L282,225" fill="#2a3a20" opacity="0.3"/>
+  <path d="M380,230 L390,220 L378,235" fill="#2a3a20" opacity="0.3"/>
+  <path d="M400,270 L408,260 L398,275" fill="#2a3a20" opacity="0.3"/>
+
+  <!-- Palm tree 2 (right) -->
+  <rect x="900" y="280" width="10" height="150" fill="#2a1a0e"/>
+  <rect x="902" y="280" width="6" height="150" fill="#3a2a18"/>
+  <path d="M905,280 Q870,260 850,290" fill="none" stroke="#2a3a20" stroke-width="3.5"/>
+  <path d="M905,280 Q890,240 860,250" fill="none" stroke="#2a3a20" stroke-width="3"/>
+  <path d="M905,280 Q930,245 955,260" fill="none" stroke="#2a3a20" stroke-width="3"/>
+  <path d="M905,280 Q940,275 960,300" fill="none" stroke="#2a3a20" stroke-width="3.5"/>
+  <path d="M905,280 Q880,290 855,315" fill="none" stroke="#2a3a20" stroke-width="3"/>
+
+  <!-- Bushes near house -->
+  <ellipse cx="430" cy="510" rx="40" ry="25" fill="#1a2a1a"/>
+  <ellipse cx="455" cy="515" rx="30" ry="20" fill="#1a2a1a"/>
+  <ellipse cx="405" cy="520" rx="25" ry="18" fill="#1a2a1a"/>
+  <ellipse cx="855" cy="510" rx="40" ry="25" fill="#1a2a1a"/>
+  <ellipse cx="880" cy="515" rx="30" ry="20" fill="#1a2a1a"/>
+
+  <!-- Pathway stones -->
+  <ellipse cx="620" cy="550" rx="18" ry="6" fill="#3a3020" opacity="0.6"/>
+  <ellipse cx="605" cy="570" rx="15" ry="5" fill="#3a3020" opacity="0.5"/>
+  <ellipse cx="625" cy="590" rx="20" ry="7" fill="#3a3020" opacity="0.5"/>
+  <ellipse cx="600" cy="610" rx="16" ry="6" fill="#3a3020" opacity="0.4"/>
+  <ellipse cx="615" cy="635" rx="22" ry="7" fill="#3a3020" opacity="0.4"/>
+  <ellipse cx="595" cy="660" rx="18" ry="6" fill="#3a3020" opacity="0.3"/>
+  <ellipse cx="610" cy="685" rx="25" ry="8" fill="#3a3020" opacity="0.3"/>
+
+  <!-- Mailbox -->
+  <rect x="530" y="530" width="6" height="60" fill="#1a1410"/>
+  <rect x="523" y="525" width="20" height="14" rx="3" fill="#2a1a0e"/>
+  <rect x="523" y="525" width="20" height="14" rx="3" fill="none" stroke="#1a0e06" stroke-width="1"/>
+  <!-- Flag -->
+  <rect x="543" y="527" width="3" height="10" fill="#1a0e06"/>
+
+  <!-- Warm lamp glow from left window -->
+  <polygon points="470,310 400,380 400,520" fill="#f0d080" opacity="0.02"/>
+
+  <!-- Fireflies -->
+  <circle cx="300" cy="460" r="2" fill="#c8d060" opacity="0.15"/>
+  <circle cx="450" cy="430" r="1.5" fill="#c8d060" opacity="0.12"/>
+  <circle cx="850" cy="440" r="1.8" fill="#c8d060" opacity="0.1"/>
+  <circle cx="200" cy="500" r="1.5" fill="#c8d060" opacity="0.08"/>
+  <circle cx="950" cy="470" r="2" fill="#c8d060" opacity="0.12"/>
+  <circle cx="700" cy="450" r="1.3" fill="#c8d060" opacity="0.1"/>
+  <circle cx="360" cy="490" r="1.8" fill="#c8d060" opacity="0.08"/>
+</svg>

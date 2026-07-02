@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дім дивних дітей — Візуальна новела</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="title-screen">
+    <div id="title-bg"></div>
+    <div id="title-content">
+      <h1 id="title-heading">Дім дивних дітей</h1>
+      <p id="title-subtitle">Візуальна новела</p>
+      <div id="title-buttons">
+        <button id="new-game-btn" class="title-btn">Нова гра</button>
+        <button id="continue-btn" class="title-btn" disabled>Продовжити</button>
+        <button id="about-btn" class="title-btn">Про проект</button>
+      </div>
+    </div>
+    <div id="about-modal" class="modal-hidden">
+      <div id="about-content">
+        <h2>Про проект</h2>
+        <p>Візуальна новела за мотивами роману Ренсома Ріґґза «Дім дивних дітей».</p>
+        <p>Історія про Якоба Портмана, його дідуся Абрахама та дивних дітей із притулку на острові в Уельсі.</p>
+        <button id="about-close-btn" class="title-btn">Закрити</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="game">
+    <div id="bg-layer"></div>
+    <div id="particles"></div>
+    <div id="flash-overlay"></div>
+    <div id="character-layer"></div>
+
+    <div id="dialog-box">
+      <div id="speaker-name"></div>
+      <div id="dialog-text"></div>
+      <div id="next-indicator">▼</div>
+    </div>
+
+    <div id="choice-overlay">
+      <div id="choice-buttons"></div>
+    </div>
+
+    <div id="menu">
+      <button id="back-btn" style="display:none">◀ Назад</button>
+      <button id="backlog-btn">Лог</button>
+      <button id="skip-btn" class="menu-toggle">Skip</button>
+      <button id="auto-btn" class="menu-toggle">Авто</button>
+      <button id="mute-btn">🔊</button>
+      <button id="restart-btn">Почати заново</button>
+    </div>
+  </div>
+
+  <div id="backlog-panel">
+    <div id="backlog-header">
+      <span>Лог діалогів</span>
+      <button id="backlog-close">✕</button>
+    </div>
+    <div id="backlog-entries"></div>
+  </div>
+  <div id="backlog-overlay"></div>
+
+  <div id="chapter-title-card">
+    <h1 id="chapter-title-text"></h1>
+  </div>
+
+  <audio id="bgm-audio" loop preload="none"></audio>
+  <audio id="sfx-audio" preload="none"></audio>
+
+  <script src="js/engine.js"></script>
+  <script src="js/scenes/00_prologue.js"></script>
+</body>
+</html>

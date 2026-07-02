@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="30%" stop-color="#0d1018"/>
+      <stop offset="60%" stop-color="#0a120a"/>
+      <stop offset="100%" stop-color="#050805"/>
+    </linearGradient>
+    <radialGradient id="moonRay" cx="30%" cy="10%" r="60%">
+      <stop offset="0%" stop-color="#404060" stop-opacity="0.06"/>
+      <stop offset="30%" stop-color="#303050" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#202040" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moon" cx="30%" cy="8%" r="20%">
+      <stop offset="0%" stop-color="#c0c8d8" stop-opacity="0.08"/>
+      <stop offset="50%" stop-color="#c0c8d8" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#c0c8d8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fog" cx="50%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#202830" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#202830" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#202830" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d140d"/>
+      <stop offset="100%" stop-color="#040804"/>
+    </linearGradient>
+    <linearGradient id="trunk" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="30%" stop-color="#0d0d0d"/>
+      <stop offset="70%" stop-color="#0d0d0d"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1280" height="720" fill="url(#sky)"/>
+  <rect width="1280" height="720" fill="url(#moon)"/>
+  <rect width="1280" height="720" fill="url(#moonRay)"/>
+
+  <!-- Ground -->
+  <rect x="0" y="480" width="1280" height="240" fill="url(#ground)"/>
+
+  <!-- Ground fog -->
+  <rect width="1280" height="720" fill="url(#fog)"/>
+
+  <!-- Mossy ground patches -->
+  <ellipse cx="300" cy="530" rx="60" ry="15" fill="#0a1a0a" opacity="0.4"/>
+  <ellipse cx="700" cy="550" rx="50" ry="12" fill="#0a1a0a" opacity="0.3"/>
+  <ellipse cx="1000" cy="520" rx="55" ry="14" fill="#0a1a0a" opacity="0.3"/>
+  <ellipse cx="500" cy="600" rx="40" ry="10" fill="#0a1a0a" opacity="0.25"/>
+  <ellipse cx="900" cy="620" rx="45" ry="11" fill="#0a1a0a" opacity="0.25"/>
+
+  <!-- Roots -->
+  <path d="M200,550 Q240,530 280,545 Q320,560 350,550" fill="none" stroke="#050505" stroke-width="6" opacity="0.5"/>
+  <path d="M250,560 Q290,545 330,555" fill="none" stroke="#050505" stroke-width="4" opacity="0.4"/>
+  <path d="M750,540 Q790,520 830,540" fill="none" stroke="#050505" stroke-width="5" opacity="0.5"/>
+  <path d="M780,550 Q800,535 840,550" fill="none" stroke="#050505" stroke-width="3" opacity="0.4"/>
+  <path d="M950,570 Q1000,550 1050,565" fill="none" stroke="#050505" stroke-width="5" opacity="0.4"/>
+  <path d="M980,580 Q1020,560 1070,575" fill="none" stroke="#050505" stroke-width="4" opacity="0.3"/>
+
+  <!-- Tree 1 (far left, large) -->
+  <path d="M50,220 Q55,350 40,480 Q35,540 30,600" stroke="url(#trunk)" stroke-width="28" fill="none" stroke-linecap="round"/>
+  <path d="M50,220 Q30,180 10,150" stroke="#050505" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M50,220 Q70,190 90,170" stroke="#050505" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M50,250 Q20,230 0,240" stroke="#050505" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M50,280 Q80,270 100,290" stroke="#050505" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Twigs -->
+  <path d="M10,150 Q0,140 -5,135" stroke="#050505" stroke-width="2" fill="none"/>
+  <path d="M90,170 Q100,160 105,155" stroke="#050505" stroke-width="2" fill="none"/>
+
+  <!-- Tree 2 (center-left, twisted) -->
+  <path d="M280,100 Q290,160 270,240 Q260,320 275,400 Q285,460 270,540 Q265,570 260,620" stroke="url(#trunk)" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <path d="M280,100 Q260,70 230,50" stroke="#050505" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M280,100 Q300,75 320,65" stroke="#050505" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M276,180 Q250,165 230,175" stroke="#050505" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M270,260 Q240,245 220,255" stroke="#050505" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M274,320 Q300,310 320,325" stroke="#050505" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M275,400 Q250,390 235,400" stroke="#050505" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M280,460 Q305,450 320,465" stroke="#050505" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Twisted branch detail -->
+  <path d="M230,50 Q225,42 220,40" stroke="#050505" stroke-width="2" fill="none"/>
+  <path d="M320,65 Q330,58 335,55" stroke="#050505" stroke-width="2" fill="none"/>
+
+  <!-- Tree 3 (center-right, thick) -->
+  <path d="M550,60 Q545,140 555,220 Q560,320 548,420 Q540,500 545,580" stroke="url(#trunk)" stroke-width="32" fill="none" stroke-linecap="round"/>
+  <path d="M550,60 Q530,30 500,15" stroke="#050505" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M550,60 Q575,35 600,25" stroke="#050505" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M552,140 Q520,120 490,130" stroke="#050505" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M555,220 Q585,205 610,215" stroke="#050505" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M558,320 Q525,305 500,315" stroke="#050505" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M550,420 Q580,410 600,420" stroke="#050505" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Knothole -->
+  <ellipse cx="548" cy="270" rx="8" ry="12" fill="#020202"/>
+  <ellipse cx="548" cy="270" rx="5" ry="8" fill="#000"/>
+  <!-- More twigs -->
+  <path d="M500,15 Q492,8 488,5" stroke="#050505" stroke-width="3" fill="none"/>
+  <path d="M600,25 Q608,20 615,18" stroke="#050505" stroke-width="3" fill="none"/>
+
+  <!-- Tree 4 (right, leaning) -->
+  <path d="M850,120 Q840,220 855,330 Q862,420 850,510 Q845,550 840,610" stroke="url(#trunk)" stroke-width="24" fill="none" stroke-linecap="round"/>
+  <path d="M850,120 Q820,90 790,80" stroke="#050505" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M850,120 Q880,100 910,95" stroke="#050505" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M845,200 Q810,185 790,195" stroke="#050505" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M855,300 Q890,285 910,295" stroke="#050505" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M860,400 Q830,390 815,400" stroke="#050505" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M852,480 Q880,470 895,480" stroke="#050505" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Tree 5 (far right, dead) -->
+  <path d="M1100,160 Q1105,250 1095,350 Q1090,440 1100,530" stroke="#050505" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M1100,160 Q1070,130 1050,115" stroke="#050505" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M1100,160 Q1125,140 1145,135" stroke="#050505" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M1097,260 Q1060,245 1040,255" stroke="#050505" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M1095,380 Q1125,370 1140,380" stroke="#050505" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Hanging moss/vines -->
+  <path d="M90,170 Q85,185 88,200" fill="none" stroke="#0a1a0a" stroke-width="1.5" opacity="0.4"/>
+  <path d="M100,290 Q95,305 98,320" fill="none" stroke="#0a1a0a" stroke-width="1.5" opacity="0.3"/>
+  <path d="M230,175 Q225,190 228,205" fill="none" stroke="#0a1a0a" stroke-width="1.5" opacity="0.3"/>
+  <path d="M500,130 Q495,145 498,160" fill="none" stroke="#0a1a0a" stroke-width="1.5" opacity="0.3"/>
+  <path d="M610,215 Q605,230 608,245" fill="none" stroke="#0a1a0a" stroke-width="1.5" opacity="0.3"/>
+  <path d="M790,80 Q785,95 788,110" fill="none" stroke="#0a1a0a" stroke-width="1.5" opacity="0.3"/>
+  <path d="M910,95 Q905,110 908,125" fill="none" stroke="#0a1a0a" stroke-width="1.5" opacity="0.3"/>
+  <path d="M1040,255 Q1035,270 1038,285" fill="none" stroke="#0a1a0a" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Cobwebs -->
+  <path d="M270,240 Q275,235 280,240" fill="none" stroke="#202030" stroke-width="0.5" opacity="0.2"/>
+  <path d="M280,240 Q275,245 270,240" fill="none" stroke="#202030" stroke-width="0.5" opacity="0.2"/>
+  <path d="M555,220 Q560,215 565,220" fill="none" stroke="#202030" stroke-width="0.5" opacity="0.2"/>
+  <path d="M565,220 Q560,225 555,220" fill="none" stroke="#202030" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Stones / megaliths -->
+  <polygon points="420,560 440,490 460,560" fill="#0d0d0a" opacity="0.6"/>
+  <polygon points="420,560 440,490 460,560" fill="none" stroke="#1a1a14" stroke-width="1" opacity="0.3"/>
+  <polygon points="435,550 445,510 455,550" fill="#0d0d0a" opacity="0.7"/>
+
+  <polygon points="680,570 700,510 720,570" fill="#0d0d0a" opacity="0.6"/>
+  <polygon points="690,560 700,520 710,560" fill="#0d0d0a" opacity="0.7"/>
+
+  <polygon points="150,580 165,530 180,580" fill="#0d0d0a" opacity="0.5"/>
+
+  <!-- Low bush silhouettes -->
+  <ellipse cx="120" cy="520" rx="50" ry="20" fill="#050805" opacity="0.6"/>
+  <ellipse cx="450" cy="510" rx="40" ry="18" fill="#050805" opacity="0.5"/>
+  <ellipse cx="650" cy="520" rx="45" ry="20" fill="#050805" opacity="0.5"/>
+  <ellipse cx="900" cy="510" rx="55" ry="22" fill="#050805" opacity="0.5"/>
+  <ellipse cx="1100" cy="520" rx="40" ry="18" fill="#050805" opacity="0.5"/>
+
+  <!-- Mist wisps -->
+  <ellipse cx="300" cy="520" rx="100" ry="15" fill="#202830" opacity="0.08"/>
+  <ellipse cx="600" cy="540" rx="80" ry="12" fill="#202830" opacity="0.06"/>
+  <ellipse cx="900" cy="530" rx="120" ry="18" fill="#202830" opacity="0.07"/>
+  <ellipse cx="400" cy="560" rx="90" ry="14" fill="#202830" opacity="0.05"/>
+  <ellipse cx="800" cy="570" rx="100" ry="16" fill="#202830" opacity="0.05"/>
+
+  <!-- Moonlight beam from upper-left -->
+  <polygon points="300,0 330,0 600,720 400,720" fill="#404060" opacity="0.02"/>
+
+  <!-- Foreground grass blades -->
+  <line x1="40" y1="720" x2="35" y2="690" stroke="#050805" stroke-width="2" opacity="0.3"/>
+  <line x1="60" y1="720" x2="58" y2="695" stroke="#050805" stroke-width="1.5" opacity="0.25"/>
+  <line x1="300" y1="720" x2="295" y2="692" stroke="#050805" stroke-width="2" opacity="0.3"/>
+  <line x1="320" y1="720" x2="318" y2="698" stroke="#050805" stroke-width="1.5" opacity="0.25"/>
+  <line x1="800" y1="720" x2="795" y2="690" stroke="#050805" stroke-width="2" opacity="0.3"/>
+  <line x1="820" y1="720" x2="818" y2="695" stroke="#050805" stroke-width="1.5" opacity="0.25"/>
+  <line x1="1100" y1="720" x2="1095" y2="692" stroke="#050805" stroke-width="2" opacity="0.3"/>
+  <line x1="1200" y1="720" x2="1198" y2="698" stroke="#050805" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- Eye shine in darkness (monster hint) -->
+  <circle cx="340" cy="480" r="2.5" fill="#600000" opacity="0.15">
+    <animate attributeName="opacity" values="0.15;0.08;0.15" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="348" cy="478" r="2" fill="#600000" opacity="0.12">
+    <animate attributeName="opacity" values="0.12;0.06;0.12" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

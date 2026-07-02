@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.04"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="#060608"/>
+  <rect width="1280" height="720" fill="#060608" filter="url(#noise)"/>
+  <!-- Very subtle radial gradient for depth -->
+  <radialGradient id="depth" cx="50%" cy="50%" r="60%">
+    <stop offset="0%" stop-color="#0a0a0e" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000" stop-opacity="0.3"/>
+  </radialGradient>
+  <rect width="1280" height="720" fill="url(#depth)"/>
+</svg>
