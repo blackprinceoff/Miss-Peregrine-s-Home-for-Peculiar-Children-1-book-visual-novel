@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#2a1a0e"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0d0a06"/>
+    </linearGradient>
+    <radialGradient id="lampLight" cx="35%" cy="25%" r="50%">
+      <stop offset="0%" stop-color="#e8c868" stop-opacity="0.12"/>
+      <stop offset="30%" stop-color="#d0a848" stop-opacity="0.06"/>
+      <stop offset="60%" stop-color="#a08030" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#a08030" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lampCone" cx="35%" cy="22%" r="55%">
+      <stop offset="0%" stop-color="#f0d080" stop-opacity="0.1"/>
+      <stop offset="40%" stop-color="#f0d080" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#f0d080" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cushion" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a3020"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Wall -->
+  <rect width="1280" height="540" fill="url(#wall)"/>
+
+  <!-- Wallpaper pattern -->
+  <rect x="0" y="0" width="1280" height="540" fill="none" stroke="#3a2818" stroke-width="0.3" opacity="0.12"/>
+  <rect x="60" y="0" width="60" height="540" fill="none" stroke="#3a2818" stroke-width="0.3" opacity="0.12"/>
+  <rect x="120" y="0" width="60" height="540" fill="none" stroke="#3a2818" stroke-width="0.3" opacity="0.12"/>
+
+  <!-- Floor -->
+  <rect x="0" y="540" width="1280" height="180" fill="url(#floor)"/>
+  <line x1="0" y1="600" x2="1280" y2="600" stroke="#0d0a06" stroke-width="1"/>
+  <line x1="0" y1="660" x2="1280" y2="660" stroke="#0d0a06" stroke-width="1"/>
+  <line x1="200" y1="540" x2="200" y2="720" stroke="#0d0a06" stroke-width="0.8"/>
+  <line x1="450" y1="540" x2="450" y2="720" stroke="#0d0a06" stroke-width="0.8"/>
+  <line x1="700" y1="540" x2="700" y2="720" stroke="#0d0a06" stroke-width="0.8"/>
+  <line x1="950" y1="540" x2="950" y2="720" stroke="#0d0a06" stroke-width="0.8"/>
+  <line x1="1200" y1="540" x2="1200" y2="720" stroke="#0d0a06" stroke-width="0.8"/>
+
+  <!-- Baseboard -->
+  <rect x="0" y="538" width="1280" height="4" fill="#1a0e06"/>
+
+  <!-- Floor lamp (left) -->
+  <rect x="80" y="180" width="6" height="360" fill="#2a1a0e"/>
+  <ellipse cx="83" cy="540" rx="20" ry="6" fill="#1a0e06"/>
+  <!-- Lamp shade -->
+  <polygon points="50,120 116,120 130,180 36,180" fill="#a08030" opacity="0.6"/>
+  <polygon points="50,120 116,120 130,180 36,180" fill="none" stroke="#8a6820" stroke-width="1.5"/>
+  <polygon points="50,120 116,120 130,180 36,180" fill="#f0d080" opacity="0.06"/>
+  <ellipse cx="83" cy="120" rx="33" ry="5" fill="#a08030" opacity="0.5"/>
+
+  <!-- Lamp cone -->
+  <rect width="1280" height="720" fill="url(#lampCone)"/>
+  <rect width="1280" height="720" fill="url(#lampLight)"/>
+
+  <!-- Armchair -->
+  <ellipse cx="350" cy="520" rx="100" ry="60" fill="#2a1a10"/>
+  <ellipse cx="350" cy="500" rx="85" ry="45" fill="url(#cushion)"/>
+  <!-- Chair back -->
+  <rect x="280" y="320" width="140" height="160" rx="15" fill="#2a1a10"/>
+  <rect x="285" y="325" width="130" height="150" rx="12" fill="#4a3020"/>
+  <!-- Chair arms -->
+  <ellipse cx="280" cy="440" rx="22" ry="60" fill="#2a1a10"/>
+  <ellipse cx="420" cy="440" rx="22" ry="60" fill="#2a1a10"/>
+  <!-- Chair shadow -->
+  <ellipse cx="350" cy="570" rx="100" ry="12" fill="#0a0502" opacity="0.4"/>
+
+  <!-- Side table next to armchair -->
+  <rect x="440" y="400" width="60" height="8" rx="2" fill="#2a1a0e"/>
+  <rect x="460" y="408" width="6" height="100" fill="#1a0e06"/>
+  <rect x="460" y="508" width="20" height="6" rx="1" fill="#1a0e06"/>
+  <!-- Glass on side table -->
+  <rect x="455" y="392" width="14" height="10" rx="1" fill="#3a2818" opacity="0.5"/>
+  <ellipse cx="462" cy="392" rx="7" ry="2" fill="#2a1a0e" opacity="0.5"/>
+
+  <!-- Sofa (right side) -->
+  <ellipse cx="850" cy="510" rx="120" ry="55" fill="#2a1a10"/>
+  <ellipse cx="850" cy="495" rx="105" ry="40" fill="#3a2818"/>
+  <!-- Sofa back -->
+  <rect x="760" y="340" width="180" height="130" rx="15" fill="#2a1a10"/>
+  <rect x="765" y="345" width="170" height="120" rx="12" fill="#3a2818"/>
+  <!-- Sofa arms -->
+  <ellipse cx="760" cy="430" rx="20" ry="50" fill="#2a1a10"/>
+  <ellipse cx="940" cy="430" rx="20" ry="50" fill="#2a1a10"/>
+  <!-- Sofa shadow -->
+  <ellipse cx="850" cy="560" rx="120" ry="12" fill="#0a0502" opacity="0.4"/>
+
+  <!-- Cushion on floor (mess) -->
+  <ellipse cx="600" cy="530" rx="30" ry="20" fill="#3a2818" transform="rotate(15,600,530)"/>
+  <ellipse cx="600" cy="530" rx="30" ry="20" fill="none" stroke="#2a1a10" stroke-width="1" transform="rotate(15,600,530)"/>
+
+  <!-- Magazine on floor (mess) -->
+  <rect x="520" y="540" width="80" height="8" rx="1" fill="#3a2a1a" opacity="0.3" transform="rotate(-8,520,540)"/>
+  <rect x="520" y="544" width="80" height="8" rx="1" fill="#3a2a1a" opacity="0.25" transform="rotate(-8,520,544)"/>
+
+  <!-- Picture frame tilted (mess) -->
+  <rect x="650" y="520" width="60" height="45" rx="2" fill="#1a0e06" transform="rotate(12,650,520)"/>
+  <rect x="650" y="520" width="60" height="45" rx="2" fill="none" stroke="#2a1a0e" stroke-width="2" transform="rotate(12,650,520)"/>
+  <rect x="654" y="524" width="52" height="37" fill="#2a1a0e" transform="rotate(12,650,520)"/>
+
+  <!-- Bookshelf against back wall -->
+  <rect x="140" y="100" width="200" height="440" fill="#1a0e06"/>
+  <rect x="140" y="100" width="200" height="440" fill="none" stroke="#2a1a0e" stroke-width="2"/>
+  <rect x="140" y="180" width="200" height="4" fill="#2a1a0e"/>
+  <rect x="140" y="280" width="200" height="4" fill="#2a1a0e"/>
+  <rect x="140" y="380" width="200" height="4" fill="#2a1a0e"/>
+  <rect x="140" y="480" width="200" height="4" fill="#2a1a0e"/>
+  <!-- Books -->
+  <rect x="150" y="110" width="14" height="66" rx="1" fill="#3a1a1a"/>
+  <rect x="166" y="115" width="12" height="61" rx="1" fill="#1a2a3a"/>
+  <rect x="180" y="108" width="16" height="68" rx="1" fill="#4a3828"/>
+  <rect x="198" y="112" width="10" height="64" rx="1" fill="#2a3a2a"/>
+  <rect x="210" y="110" width="14" height="66" rx="1" fill="#3a2a3a"/>
+  <rect x="226" y="116" width="12" height="60" rx="1" fill="#1a1a1a"/>
+  <!-- Some books pulled out (mess) -->
+  <rect x="242" y="110" width="14" height="66" rx="1" fill="#4a2010" transform="rotate(-15,242,110)"/>
+  <rect x="160" y="192" width="16" height="84" rx="1" fill="#3a2a1a"/>
+  <rect x="178" y="195" width="12" height="81" rx="1" fill="#1a3a3a"/>
+  <rect x="192" y="190" width="14" height="86" rx="1" fill="#4a1a1a"/>
+  <rect x="300" y="192" width="12" height="84" rx="1" fill="#2a2a4a" transform="rotate(10,300,192)"/>
+
+  <!-- Framed photo on wall (family) -->
+  <rect x="780" y="100" width="100" height="80" rx="2" fill="#1a0e06"/>
+  <rect x="780" y="100" width="100" height="80" rx="2" fill="none" stroke="#2a1a0e" stroke-width="3"/>
+  <rect x="786" y="106" width="88" height="68" fill="#2a1f14"/>
+  <!-- Faces in photo -->
+  <circle cx="810" cy="128" r="6" fill="#3a2818"/>
+  <circle cx="830" cy="125" r="7" fill="#3a2818"/>
+  <circle cx="852" cy="130" r="5" fill="#3a2818"/>
+  <rect x="805" y="138" width="10" height="25" fill="#2a1a0e"/>
+  <rect x="826" y="136" width="12" height="27" fill="#2a1a0e"/>
+  <rect x="848" y="140" width="8" height="23" fill="#2a1a0e"/>
+  <rect x="790" y="162" width="70" height="8" fill="#3a2818" opacity="0.4"/>
+
+  <!-- Wall clock -->
+  <circle cx="500" cy="160" r="18" fill="#1a0e06"/>
+  <circle cx="500" cy="160" r="16" fill="#2a1e14"/>
+  <circle cx="500" cy="160" r="14" fill="#c8a060" opacity="0.08"/>
+  <line x1="500" y1="160" x2="500" y2="150" stroke="#c8a060" stroke-width="1" opacity="0.12"/>
+  <line x1="500" y1="160" x2="508" y2="160" stroke="#c8a060" stroke-width="1" opacity="0.12"/>
+  <!-- Cracked glass (mess) -->
+  <line x1="490" y1="152" x2="510" y2="168" stroke="#1a1008" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Rug -->
+  <ellipse cx="640" cy="600" rx="220" ry="50" fill="#4a2a1a" opacity="0.35"/>
+  <ellipse cx="640" cy="600" rx="205" ry="45" fill="none" stroke="#5a3a2a" stroke-width="1.5" opacity="0.2"/>
+  <ellipse cx="640" cy="600" rx="190" ry="40" fill="none" stroke="#5a3a2a" stroke-width="1" opacity="0.15"/>
+  <ellipse cx="640" cy="600" rx="175" ry="35" fill="none" stroke="#5a3a2a" stroke-width="1" opacity="0.1"/>
+
+  <!-- Curtains -->
+  <path d="M20,0 Q10,100 30,200 Q40,300 20,400 L20,540 L80,540 L80,400 Q60,300 70,200 Q80,100 70,0 Z" fill="#2a1a10" opacity="0.5"/>
+  <path d="M1200,0 Q1190,100 1210,200 Q1220,300 1200,400 L1200,540 L1260,540 L1260,400 Q1240,300 1250,200 Q1260,100 1250,0 Z" fill="#2a1a10" opacity="0.5"/>
+  <!-- Curtain rod -->
+  <line x1="10" y1="10" x2="1270" y2="10" stroke="#3a2818" stroke-width="4"/>
+  <circle cx="15" cy="10" r="6" fill="#3a2818"/>
+  <circle cx="1265" cy="10" r="6" fill="#3a2818"/>
+
+  <!-- Key cabinet (locked, scratches on handle) -->
+  <rect x="1100" y="200" width="80" height="120" rx="3" fill="#1a0e06"/>
+  <rect x="1100" y="200" width="80" height="120" rx="3" fill="none" stroke="#2a1a0e" stroke-width="2"/>
+  <rect x="1100" y="200" width="80" height="15" rx="2" fill="#2a1a0e"/>
+  <!-- Scratches on lock -->
+  <line x1="1130" y1="270" x2="1150" y2="280" stroke="#3a2818" stroke-width="0.8" opacity="0.4"/>
+  <line x1="1140" y1="265" x2="1155" y2="285" stroke="#3a2818" stroke-width="0.8" opacity="0.3"/>
+  <line x1="1125" y1="275" x2="1145" y2="290" stroke="#3a2818" stroke-width="0.5" opacity="0.3"/>
+  <!-- Lock -->
+  <rect x="1135" y="270" width="10" height="12" rx="1" fill="#4a3a28"/>
+
+  <!-- Overturned chair (mess) -->
+  <rect x="1030" y="480" width="40" height="6" rx="1" fill="#2a1a0e" transform="rotate(-25,1030,480)"/>
+  <line x1="1032" y1="480" x2="1038" y2="530" stroke="#2a1a0e" stroke-width="3" stroke-linecap="round" transform="rotate(-25,1030,480)"/>
+  <line x1="1062" y1="480" x2="1068" y2="530" stroke="#2a1a0e" stroke-width="3" stroke-linecap="round" transform="rotate(-25,1030,480)"/>
+
+  <!-- Cold light from kitchen (back) -->
+  <rect x="570" y="480" width="40" height="60" fill="#4060a0" opacity="0.02"/>
+</svg>

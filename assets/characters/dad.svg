@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 500">
+  <rect width="200" height="500" fill="transparent"/>
+  <!-- Обличчя -->
+  <ellipse cx="100" cy="80" rx="32" ry="37" fill="#c8a890"/>
+  <!-- Волосся (колірний спліт по контуру верхньої частини голови) -->
+  <path d="M 75.6,56 A 32,37 0 0,1 124.4,56 Z" fill="#4a4a4a"/>
+  <!-- Легка щетина -->
+  <ellipse cx="100" cy="108" rx="20" ry="10" fill="#b89880" opacity="0.4"/>
+  <!-- Очі (втомлені, добрі) -->
+  <ellipse cx="87" cy="74" rx="5" ry="5" fill="#f0e8e0"/>
+  <ellipse cx="87" cy="74" rx="3.5" ry="4" fill="#4a6a4a"/>
+  <circle cx="87" cy="74" r="2.2" fill="#2a3a2a"/>
+  <circle cx="85.5" cy="72.5" r="1" fill="#fff"/>
+  <ellipse cx="113" cy="74" rx="5" ry="5" fill="#f0e8e0"/>
+  <ellipse cx="113" cy="74" rx="3.5" ry="4" fill="#4a6a4a"/>
+  <circle cx="113" cy="74" r="2.2" fill="#2a3a2a"/>
+  <circle cx="111.5" cy="72.5" r="1" fill="#fff"/>
+  <!-- Зморшки під очима -->
+  <path d="M78,80 Q87,83 94,80" fill="none" stroke="#b08870" stroke-width="0.6"/>
+  <path d="M106,80 Q113,83 122,80" fill="none" stroke="#b08870" stroke-width="0.6"/>
+  <!-- Брови -->
+  <path d="M76,64 Q84,61 92,63" fill="none" stroke="#4a4a4a" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M108,63 Q116,61 124,64" fill="none" stroke="#4a4a4a" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Носо-губні складки -->
+  <path d="M90,92 Q86,100 90,106" fill="none" stroke="#b08870" stroke-width="0.4"/>
+  <path d="M110,92 Q114,100 110,106" fill="none" stroke="#b08870" stroke-width="0.4"/>
+  <!-- Ніс -->
+  <path d="M99,78 Q97,86 100,88 Q103,86 101,78" fill="none" stroke="#b08870" stroke-width="0.8" stroke-linecap="round"/>
+  <ellipse cx="100" cy="88" rx="2.5" ry="2" fill="#b89880"/>
+  <!-- Рот -->
+  <path d="M90,98 Q95,101 100,99 Q105,101 110,98" fill="none" stroke="#7a5a4a" stroke-width="1" stroke-linecap="round"/>
+  <!-- Шия -->
+  <rect x="88" y="115" width="24" height="16" rx="2" fill="#c8a890"/>
+  <path d="M90,115 Q100,127 110,115" fill="none" stroke="#b08870" stroke-width="0.5"/>
+  <!-- Сорочка -->
+  <rect x="68" y="129" width="64" height="140" rx="3" fill="#d8d0c0"/>
+  <!-- Комірець -->
+  <polygon points="88,129 100,142 112,129" fill="#f0e8d8"/>
+  <polygon points="88,129 100,142 93,129" fill="#e0d8c8"/>
+  <!-- Ґудзики -->
+  <circle cx="100" cy="158" r="1.8" fill="#b8a898"/>
+  <circle cx="100" cy="174" r="1.8" fill="#b8a898"/>
+  <circle cx="100" cy="190" r="1.8" fill="#b8a898"/>
+  <!-- Закатані рукава -->
+  <rect x="46" y="129" width="22" height="18" rx="3" fill="#d8d0c0"/>
+  <rect x="130" y="129" width="22" height="18" rx="3" fill="#d8d0c0"/>
+  <polygon points="46,147 68,147 66,152 48,152" fill="#c8b8a8"/>
+  <polygon points="130,147 152,147 150,152 132,152" fill="#c8b8a8"/>
+  <rect x="46" y="152" width="22" height="4" fill="#b8a898"/>
+  <rect x="130" y="152" width="22" height="4" fill="#b8a898"/>
+  <!-- Кишеня сорочки -->
+  <rect x="80" y="160" width="16" height="14" rx="1" fill="#d8d0c0" stroke="#c8b8a8" stroke-width="0.5"/>
+  <!-- Ремінь -->
+  <rect x="68" y="269" width="64" height="6" fill="#2a1a0a"/>
+  <rect x="96" y="267" width="8" height="10" rx="1" fill="#8a7a5a"/>
+  <rect x="98" y="269" width="4" height="6" rx="0.5" fill="#4a3a2a"/>
+  <!-- Штани -->
+  <rect x="70" y="275" width="25" height="112" rx="2" fill="#3a4a5a"/>
+  <rect x="105" y="275" width="25" height="112" rx="2" fill="#3a4a5a"/>
+  <line x1="82.5" y1="275" x2="82.5" y2="387" stroke="#2a3a4a" stroke-width="0.4"/>
+  <line x1="117.5" y1="275" x2="117.5" y2="387" stroke="#2a3a4a" stroke-width="0.4"/>
+  <!-- Черевики -->
+  <rect x="68" y="387" width="28" height="15" rx="4" fill="#1a0a06"/>
+  <rect x="104" y="387" width="28" height="15" rx="4" fill="#1a0a06"/>
+  <rect x="68" y="398" width="28" height="4" rx="2" fill="#0a0000"/>
+  <rect x="104" y="398" width="28" height="4" rx="2" fill="#0a0000"/>
+  <!-- Руки -->
+  <rect x="44" y="148" width="24" height="104" rx="8" fill="#c8a890"/>
+  <rect x="132" y="148" width="24" height="104" rx="8" fill="#c8a890"/>
+  <!-- Кисті -->
+  <circle cx="56" cy="254" r="9" fill="#c8a890"/>
+  <circle cx="144" cy="254" r="9" fill="#c8a890"/>
+  <path d="M48,251 Q44,245 46,241" fill="none" stroke="#c8a890" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M52,250 Q51,244 53,240" fill="none" stroke="#c8a890" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M57,250 Q58,244 59,240" fill="none" stroke="#c8a890" stroke-width="3" stroke-linecap="round"/>
+  <path d="M136,251 Q140,245 138,241" fill="none" stroke="#c8a890" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M140,250 Q141,244 139,240" fill="none" stroke="#c8a890" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M145,250 Q144,244 143,240" fill="none" stroke="#c8a890" stroke-width="3" stroke-linecap="round"/>
+</svg>

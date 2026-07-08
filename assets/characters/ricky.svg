@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 500">
+  <rect width="200" height="500" fill="transparent"/>
+  <!-- Обличчя -->
+  <ellipse cx="100" cy="82" rx="30" ry="36" fill="#d4b8a0"/>
+  <!-- Волосся (колірний спліт по контуру верхньої частини голови) -->
+  <path d="M 78.4,57 A 30,36 0 0,1 121.6,57 Z" fill="#1a3a1a"/>
+  <!-- Легка неголеність -->
+  <ellipse cx="100" cy="108" rx="18" ry="8" fill="#c8a890" opacity="0.4"/>
+  <!-- Очі -->
+  <ellipse cx="87" cy="74" rx="5" ry="5.5" fill="#f0e8e0"/>
+  <ellipse cx="87" cy="74" rx="3.5" ry="4.5" fill="#5a4a3a"/>
+  <circle cx="87" cy="74" r="2" fill="#2a1a10"/>
+  <circle cx="85.5" cy="72" r="1.2" fill="#fff"/>
+  <ellipse cx="113" cy="74" rx="5" ry="5.5" fill="#f0e8e0"/>
+  <ellipse cx="113" cy="74" rx="3.5" ry="4.5" fill="#5a4a3a"/>
+  <circle cx="113" cy="74" r="2" fill="#2a1a10"/>
+  <circle cx="111.5" cy="72" r="1.2" fill="#fff"/>
+  <!-- Брови -->
+  <path d="M78,65 Q85,62 93,64" fill="none" stroke="#2a1a10" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M107,64 Q115,62 122,65" fill="none" stroke="#2a1a10" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Ніс -->
+  <path d="M99,78 Q96,87 100,89 Q104,87 101,78" fill="none" stroke="#b89880" stroke-width="0.8" stroke-linecap="round"/>
+  <ellipse cx="100" cy="89" rx="2" ry="1.5" fill="#c8a890"/>
+  <!-- Усмішка -->
+  <path d="M90,99 Q95,103 100,100 Q106,103 111,98" fill="none" stroke="#8a6050" stroke-width="1" stroke-linecap="round"/>
+  <!-- Шия -->
+  <rect x="90" y="116" width="20" height="16" rx="2" fill="#d4b8a0"/>
+  <!-- Футболка з гуртом -->
+  <rect x="66" y="130" width="68" height="140" rx="3" fill="#1a1a1a"/>
+  <!-- Принт на футболці -->
+  <rect x="80" y="155" width="40" height="30" rx="2" fill="#2a0a0a"/>
+  <text x="100" y="170" font-family="monospace" font-size="6" fill="#8a3a3a" text-anchor="middle" font-weight="bold">THRASH</text>
+  <text x="100" y="178" font-family="monospace" font-size="5" fill="#6a2a2a" text-anchor="middle">DEATH</text>
+  <!-- Шкіряна куртка -->
+  <path d="M60,128 L66,130 L66,270 L58,270 Q54,200 60,128Z" fill="#2a1a0a"/>
+  <path d="M140,128 L134,130 L134,270 L142,270 Q146,200 140,128Z" fill="#2a1a0a"/>
+  <path d="M60,128 L140,128" fill="none" stroke="#3a2a1a" stroke-width="1"/>
+  <path d="M66,134 L134,134" fill="none" stroke="#3a2a1a" stroke-width="0.5"/>
+  <!-- Блискавка куртки -->
+  <line x1="98" y1="134" x2="98" y2="230" stroke="#4a3a2a" stroke-width="1"/>
+  <circle cx="98" cy="230" r="2" fill="#6a5a4a"/>
+  <!-- Комір куртки -->
+  <path d="M62,128 L85,118 L100,130 L115,118 L138,128" fill="#1a0a00" stroke="#2a1a0a" stroke-width="1"/>
+  <!-- Джинси -->
+  <rect x="70" y="270" width="24" height="116" rx="2" fill="#2a3a5a"/>
+  <rect x="106" y="270" width="24" height="116" rx="2" fill="#2a3a5a"/>
+  <line x1="82" y1="270" x2="82" y2="386" stroke="#1a2a4a" stroke-width="0.4"/>
+  <line x1="118" y1="270" x2="118" y2="386" stroke="#1a2a4a" stroke-width="0.4"/>
+  <!-- Дірки на джинсах -->
+  <ellipse cx="80" cy="320" rx="6" ry="3" fill="#c8b8a8"/>
+  <ellipse cx="116" cy="340" rx="5" ry="4" fill="#c8b8a8"/>
+  <line x1="74" y1="320" x2="86" y2="320" stroke="#1a2a4a" stroke-width="0.3"/>
+  <line x1="111" y1="338" x2="121" y2="342" stroke="#1a2a4a" stroke-width="0.3"/>
+  <!-- Ремінь -->
+  <rect x="70" y="268" width="60" height="6" fill="#0a0a0a"/>
+  <rect x="96" y="266" width="8" height="10" rx="1.5" fill="#8a7a5a"/>
+  <!-- Важкі черевики -->
+  <rect x="68" y="386" width="28" height="16" rx="4" fill="#0a0a0a"/>
+  <rect x="104" y="386" width="28" height="16" rx="4" fill="#0a0a0a"/>
+  <rect x="68" y="398" width="28" height="5" rx="2" fill="#000"/>
+  <rect x="104" y="398" width="28" height="5" rx="2" fill="#000"/>
+  <line x1="72" y1="393" x2="92" y2="393" stroke="#2a2a2a" stroke-width="0.5"/>
+  <line x1="108" y1="393" x2="128" y2="393" stroke="#2a2a2a" stroke-width="0.5"/>
+  <!-- Руки -->
+  <rect x="44" y="148" width="22" height="104" rx="8" fill="#d4b8a0"/>
+  <rect x="134" y="148" width="22" height="104" rx="8" fill="#d4b8a0"/>
+  <!-- Рукава куртки -->
+  <rect x="42" y="148" width="24" height="18" rx="4" fill="#2a1a0a"/>
+  <rect x="134" y="148" width="24" height="18" rx="4" fill="#2a1a0a"/>
+  <!-- Кисті -->
+  <circle cx="55" cy="255" r="8.5" fill="#d4b8a0"/>
+  <circle cx="145" cy="255" r="8.5" fill="#d4b8a0"/>
+  <path d="M48,252 Q44,246 46,242" fill="none" stroke="#d4b8a0" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M52,251 Q50,245 52,241" fill="none" stroke="#d4b8a0" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M57,251 Q58,245 59,241" fill="none" stroke="#d4b8a0" stroke-width="3" stroke-linecap="round"/>
+  <path d="M138,252 Q142,246 140,242" fill="none" stroke="#d4b8a0" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M142,251 Q144,245 142,241" fill="none" stroke="#d4b8a0" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M147,251 Q146,245 145,241" fill="none" stroke="#d4b8a0" stroke-width="3" stroke-linecap="round"/>
+  <!-- Сережка -->
+  <circle cx="128" cy="88" r="3" fill="none" stroke="#c8a040" stroke-width="1"/>
+  <circle cx="128" cy="88" r="0.8" fill="#c8a040"/>
+</svg>

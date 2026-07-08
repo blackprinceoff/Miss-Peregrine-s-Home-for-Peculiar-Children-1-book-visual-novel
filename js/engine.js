@@ -222,7 +222,11 @@ const VN = {
         'Ейб': 'abe',
         'Абрахам': 'abe',
         'Дідусь': 'abe',
-        'Потвора': 'monster'
+        'Потвора': 'monster',
+        'Шеллі': 'shelly',
+        'Лінда': 'linda',
+        'Батько': 'dad',
+        'Рікі': 'ricky'
       };
       const charKey = charMap[node.speaker] || null;
       if (charKey) {
@@ -310,6 +314,9 @@ const VN = {
   render() {
     const node = this.getCurrentNode();
     if (!node) return;
+
+    const gameEl = document.getElementById('game');
+    if (gameEl) gameEl.classList.remove('fx-fade-out');
 
     if (this.typewriterHandle) {
       clearInterval(this.typewriterHandle);
@@ -495,7 +502,12 @@ const VN = {
         this.state.currentNodeId = nextScene.nodes[0].id;
       }
       this.save();
-      this.render();
+      if (nextScene) this.playSceneMusic(nextScene);
+      if (nextScene && nextScene.title) {
+        this.showChapterTitle(nextScene);
+      } else {
+        this.render();
+      }
     } else {
       document.getElementById('next-indicator').classList.remove('visible');
     }
